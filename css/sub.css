@@ -1,0 +1,697 @@
+
+@charset "utf-8";
+
+
+#sub01 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height:96rem;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    background: url('/img/sub/sub_img01.jpg') no-repeat center center/cover;
+}
+    
+#sub01 .ms_con h2,
+#sub01 .ms_con p {
+    color: var(--white);
+}
+
+#sub01 .ms_con p {
+    margin-top:5rem;
+}
+
+
+
+/*sub02*/
+#sub02 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding:15rem 0;
+}
+
+#sub02 h2 {
+    margin-bottom:3rem;
+}
+
+#sub02 > p {
+    font-size: 2.5rem;
+    color: var(--subcolor);
+}
+
+#sub02 .contents .clinic {
+    position: relative;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    text-align: left;
+    margin-top:8.5rem;
+}
+
+#sub02 .contents h3 {
+    position: relative;
+    display: block;
+    margin: 10rem 0 5rem;
+}
+
+#sub02 .contents h3::before{
+    content:'';
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:-3rem;
+    display: block;
+    width:7.5rem;
+    height:0.1rem;
+    background-color: var(--maincolor);
+}
+
+
+#sub02 .contents p {
+    color: var(--subcolor);
+    font-weight:300;
+}
+
+#sub02 .contents .clinic .img_box {
+    position:relative;
+    display: block;
+    width: 20%;
+    max-width:27rem;
+    height:35rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+#sub02 .contents .clinic .img_box .ms_bg {
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+#sub02 .contents .clinic .img_box .ms_bg01 {
+    background: url('/img/sleep_img01.jpg') no-repeat center center/cover;
+}
+
+#sub02 .contents .clinic .img_box .ms_bg02 {
+    background: url('/img/sleep_img02.jpg') no-repeat center center/cover;
+}
+
+#sub02 .contents .clinic .img_box .ms_bg03 {
+    background: url('/img/sleep_img03.jpg') no-repeat center center/cover;
+}
+
+#sub02 .contents .clinic .img_box .ms_bg04 {
+    background: url('/img/sleep_img04.jpg') no-repeat center center/cover;
+}
+
+#sub02 .contents .clinic .img_box .ms_bg05 {
+    background: url('/img/sleep_img05.jpg') no-repeat center center/cover;
+}
+
+#sub02 .contents .clinic .img_box .ms_con {
+    position: absolute;
+    bottom: 0;
+    background: var(--maincolor);
+    padding:2.7rem 0;
+    display: block;
+    width:100%;
+    text-align:center;
+}
+
+#sub02 .contents .clinic .img_box .ms_con p {
+    color: var(--white);
+    font-weight:500;
+    font-size:3rem;
+}
+
+
+/*sub03*/
+#sub03 {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #ecf0f4;
+    padding: 15rem 0
+}
+
+
+#sub03 h2 {
+    margin-bottom:3rem;
+}
+
+#sub03 > p {
+    font-size: 2.5rem;
+    color: var(--subcolor);
+}
+
+#sub03 .contents {
+    margin-top:8.5rem;
+}
+
+#sub03 .contents .clinic {
+    position: relative;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    text-align: left;
+}
+
+#sub03 .contents .clinic .img_box {
+    width: 25%;
+    max-width:61rem;
+    text-align: center;
+}
+
+#sub03 .contents .clinic .img_box img {
+    max-width:100%;
+    border:0.1rem solid var(--maincolor);
+    border-radius: 4rem;
+
+}
+#sub03 .contents .clinic .img_box02 img {
+    border:1rem solid #0084ff;
+}
+
+#sub03 .contents .clinic .img_box .ms_con p {
+    display: inline-block;
+    color: var(--maincolor);
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+#sub03 .graph {
+    position: relative;
+    display: inline-block;
+    max-width:254.3rem;
+    margin-top:5rem;
+    padding:6rem;
+    border-radius: 4rem; 
+    background: var(--white);
+    text-align: left;
+}
+
+#sub03 .graph h3 {
+    line-height:150%
+}
+
+
+#sub03 .graph .graph_box {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:8rem;
+    max-width:254.3rem; 
+    margin-top:8rem;  
+}
+
+#sub03 .graph .graph_box p {
+    color: var(--subcolor);
+    font-weight:400;
+    font-size:2.5rem;
+    line-height:175%
+}
+
+#sub03 .graph .graph_box img {
+    max-width:100%
+}
+
+/*sub04*/
+#sub04 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 15rem 0
+}
+
+#sub04 h2 {
+    margin-bottom:3rem;
+}
+
+#sub04 > p {
+    font-size: 2.5rem;
+    color: var(--subcolor);
+}
+
+#sub04 .contents {
+    margin-top:8.5rem;
+}
+
+#sub04 .contents .clinic {
+    position: relative;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    text-align: left;
+}
+
+#sub04 .contents .clinic .img_box {
+    position: relative;
+    width: 25%;
+    max-width:61rem;
+    text-align: center;
+}
+
+#sub04 .contents .clinic .img_box img {
+    max-width:100%;
+}
+
+#sub04 .contents .clinic .img_box .ms_con {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#sub04 .contents .clinic .img_box .ms_con p {
+    color: var(--white);
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+
+/*sub05*/
+#sub05 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 15rem 0;
+    color:var(--white);
+    background: var(--maincolor);
+}
+
+#sub05 h2 {
+    color:var(--white);
+    margin-bottom:3rem;
+}
+
+#sub05 > p {
+    font-size: 2.5rem;
+}
+
+#sub05 .contents {
+    margin-top:8.5rem;
+}
+
+#sub05 .contents .clinic {
+    position: relative;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    text-align: left;
+}
+
+#sub05 .contents .clinic .img_box {
+    position: relative;
+    width: 33.333333%;
+    max-width:39.5rem;
+    vertical-align: middle;
+}
+
+#sub05 .contents .clinic .img_box img {
+    max-width:100%;
+}
+
+#sub05 .contents .clinic .img_box .ms_con {
+    vertical-align: middle;
+    display: flex;
+    margin-top:3rem;
+}
+
+#sub05 .contents .clinic .img_box .ms_con span {
+    font-family: 'GmarketSans', sans-serif;
+    font-size:5rem;
+    font-weight:400;
+    color: var(--white);
+    position: relative;
+    margin-right: 5rem
+}
+
+#sub05 .contents .clinic .img_box .ms_con span::after {
+    content:'';
+    width: 0.1rem;
+    height:9rem;
+    background: var(--white);
+    display: block;
+    position:absolute;
+    top: -0.25rem;
+    right: -2.5rem;
+}
+
+#sub05 .contents .clinic .img_box .ms_con p {
+    display:inline-block;
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+/*sub06*/
+#sub06 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top:15rem;
+}
+
+#sub06 h2 {
+    margin-bottom:3rem;
+}
+
+#sub06 > p {
+    font-size: 2.5rem;
+    color: var(--subcolor);
+}
+
+#sub06 .scroll_banner {
+    position: relative;
+    display: block;
+    width:100%;
+    background: url('/img/scroll_img01.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    padding:15rem 0;
+    margin-top:5rem;
+}
+
+#sub06 .scroll_banner .ms_con,
+#sub06 .scroll_banner .ms_con h3 {
+    position: relative;
+    color: var(--white);
+}
+
+#sub06 .scroll_banner .ms_con h3::before {
+    content:'';
+    display:block;
+    height:0.1rem;
+    width: 8rem;
+    background-color: var(--white);
+    position:absolute;
+    bottom:-3.5rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#sub06 .scroll_banner .ms_con p {
+    margin-top:6rem
+}
+#sub06 .contents {
+    padding:5rem 0 15rem;
+}
+
+#sub06 .contents h3 {
+    display: block;
+    margin-bottom: 5rem;
+}
+
+#sub06 .contents02 {
+    padding: 0 0 15rem;
+}
+
+#sub06 .contents02 ul {
+    position: relative;
+    display: flex;
+    width:100%;
+    height:23rem;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+
+#sub06 .contents02 ul li {
+    display: flex;
+    width: 20%;
+    max-width: 23rem;
+    height:100%;
+    color:var(--white);
+    border-radius: 3rem;
+    background: var(--maincolor);
+    align-items: center;
+    justify-content: center;
+    font-weight:500;
+    font-size:3rem;
+}
+
+#sub06 .contents03 {
+    position: relative;
+    display: block;
+    background:#ecf0f4;
+    padding: 14rem 0
+}
+
+#sub06 .contents ul {
+    position: relative;
+    width:100%;
+    max-width:192rem;
+    margin:0 auto;
+    text-align: left;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#sub06 .contents03 ul li {
+    width:50%;
+    position: relative;
+    max-width:71rem;
+    font-size:2.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding:0 0 0 11rem;
+    background: var(--white);
+    color: var(--maincolor);
+    line-height:8.6rem;
+    height:8.6rem;
+}
+
+#sub06 .contents03 ul li span {
+    position: absolute;
+    font-family: 'GmarketSans', sans-serif;
+    padding:2.6rem;
+    background: var(--maincolor);
+    color: var(--white);
+    font-size:3rem;
+    left:0;
+    top:0;
+}
+
+#sub06 .contents04 {
+    position: relative;
+    display: block;
+    background: #2a5d9c;
+    padding: 14rem 0;
+    color: var(--white);
+}
+
+#sub06 .contents04 h3 {
+    position: relative;
+    display: block;
+    color: var(--white);
+    margin-bottom: 7rem;
+}
+
+#sub06 .contents04 h3::before {
+    content:'';
+    display:block;
+    height:0.1rem;
+    width: 8rem;
+    background-color: var(--white);
+    position:absolute;
+    bottom:-3.5rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#sub06 .contents04 ul {
+    margin-top: 6rem;
+}
+
+#sub06 .contents04 ul li {
+    width:50%;
+    position: relative;
+    max-width:71rem;
+    font-size:2.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding:0 0 0 11rem;
+    border: 0.1rem solid var(--white);
+    color: var(--white);
+    line-height:8.6rem;
+    height:8.6rem;
+    font-weight: 300;
+}
+
+#sub06 .contents04 ul li:last-child {
+    opacity:0;
+}
+
+#sub06 .contents04 ul li span {
+    position: absolute;
+    font-family: 'GmarketSans', sans-serif;
+    padding: 1.6rem 2.6rem;
+    background: var(--white);
+    color: var(--maincolor);
+    font-size:4rem;
+    left:0;
+    top:0;
+}
+
+
+/*sub07*/
+#sub07 {
+    position: relative;
+    display: block;   
+    padding: 10rem 0 
+}
+
+#sub07 > h2 {
+    text-align: center;
+}
+
+#sub07 .contents .li_box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width:145rem;
+    margin: 0 auto;
+    padding: 5rem 0;
+    border-bottom: 0.1rem solid var(--maincolor)
+}
+
+#sub07 .contents .li_box:last-child {
+    border-bottom:0;
+}
+
+#sub07 .contents .li_box .txt_box {
+    width: 60%;
+}
+
+#sub07 .contents .li_box .cel_box {
+    width: 40%;
+}
+
+
+
+#sub07 .txt_box p {
+    color: var(--subcolor)    
+}
+
+#sub07 .txt_box span {
+    color: var(--maincolor)
+}
+
+#sub07 .title {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#sub07 .title span {
+    font-family: 'GmarketSans', sans-serif;
+    font-size: 5rem;
+    display: inline-block;
+    width: 6.9rem;
+    height: 6.9rem;
+    border-radius: 1rem;
+    background: var(--white);
+    color: var(--maincolor);
+    border: 0.1rem solid var(--maincolor);
+    text-align: center;
+}
+
+#sub07 .title p {
+    font-size: 3.3rem;
+    font-weight:700;
+    color: var(--maincolor);
+    padding-left: 3rem;
+}
+
+#sub07 .title p b {
+    color:#0a97e7
+}
+
+#sub07 .txt_box .sub_txt {
+    margin: 2.5rem 0 0 10rem;
+}
+
+#sub07 .txt_box .sub_txt p,
+#sub07 .txt_box .sub_txt span {
+    font-size:2.2rem;
+    font-weight: 400;
+    word-break: keep-all;
+}
+
+
+#sub07 .txt_box .sub_txt span {
+    display: block;
+    margin-top: 2.5rem;
+}
+
+
+#sub07 .cel_box {
+    display: flex;
+    padding:2rem 4rem;
+    background: var(--maincolor);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-self: center;
+}
+
+
+
+#sub07 .cel_box ul {
+    display: block;
+    width: 100%;
+}
+
+#sub07 .cel_box ul li {
+    display: block;
+    padding: 0 0 0.5rem 0 ; 
+}
+
+#sub07 .cel_box li::after {
+    content:'';
+    display: block;
+    width:100%;
+    height:0.1rem;
+    background: rgba(255,255,255,0.4);
+    margin-top: 0.5rem
+}
+
+#sub07 .cel_box span {
+    color: var(--white);
+    font-size: 2.8rem;
+}
+
+#sub07 .cel_box .fcb span {
+    color:#73ccff;
+
+}
+
+#sub07 .cel_box .fcb li {
+    text-align:right;
+}
+
+#sub07 .contents .li_box .l_cel_box .fcb li,
+#sub07 .contents .li_box .l_cel_box ul:last-child li {
+    text-align: center;
+}
+
+#sub07 .contents .li_box .l_cel_box ul:last-child li:last-child span {
+    font-size:2.3rem;
+    line-height: 183%;
+}
+
+#sub07 .cel_box sub {
+    vertical-align: middle;
+    color: var(--white);
+    font-size:2rem;
+}
