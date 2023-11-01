@@ -301,23 +301,23 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
 .main_bg01 {
   position: relative;
   height: 100%;
-  background: url('/img/main_img01.jpg') no-repeat center center;
+  background: url('../img/main_img01.jpg') no-repeat center center;
   transition: 0.5s;
 }
 
 .main_bg01:hover {
-  background: url('/img/main_img01_on.jpg') no-repeat center center/cover;
+  background: url('../img/main_img01_on.jpg') no-repeat center center/cover;
 }
 
 .main_bg02 {
   position: relative;
   height: 100%;
-  background: url('/img/main_img02.jpg') no-repeat center center/cover;
+  background: url('../img/main_img02.jpg') no-repeat center center/cover;
   transition: 0.5s;
 }
 
 .main_bg02:hover {
-  background: url('/img/main_img02_on.jpg') no-repeat center center/cover;
+  background: url('../img/main_img02_on.jpg') no-repeat center center/cover;
 }
 
 
@@ -338,7 +338,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   text-align:center;
   align-items: center;
   justify-content: center;
-  background: url('/img/main_img03.jpg') no-repeat center center/cover;
+  background: url('../img/main_img03.jpg') no-repeat center center/cover;
 }
 
 #main02 .ms_con::before {
@@ -674,23 +674,23 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 #main06 .contents .clinic .img_box .ms_bg01 {
-  background: url('/img/sleep_img01.jpg') no-repeat center center/cover;
+  background: url('../img/sleep_img01.jpg') no-repeat center center/cover;
 }
 
 #main06 .contents .clinic .img_box .ms_bg02 {
-  background: url('/img/sleep_img02.jpg') no-repeat center center/cover;
+  background: url('../img/sleep_img02.jpg') no-repeat center center/cover;
 }
 
 #main06 .contents .clinic .img_box .ms_bg03 {
-  background: url('/img/sleep_img03.jpg') no-repeat center center/cover;
+  background: url('../img/sleep_img03.jpg') no-repeat center center/cover;
 }
 
 #main06 .contents .clinic .img_box .ms_bg04 {
-  background: url('/img/sleep_img04.jpg') no-repeat center center/cover;
+  background: url('../img/sleep_img04.jpg') no-repeat center center/cover;
 }
 
 #main06 .contents .clinic .img_box .ms_bg05 {
-  background: url('/img/sleep_img05.jpg') no-repeat center center/cover;
+  background: url('../img/sleep_img05.jpg') no-repeat center center/cover;
 }
 
 #main06 .contents .clinic .img_box .ms_con {
@@ -738,7 +738,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   position: relative;
   display: block;
   width:100%;
-  background: url('/img/scroll_img01.jpg') no-repeat center center/cover;
+  background: url('../img/scroll_img01.jpg') no-repeat center center/cover;
   background-attachment: fixed;
   padding:15rem 0;
   margin-top: 5rem;
@@ -928,7 +928,14 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   }
 }
 
-@media all and (max-width: 1025px) {}
+@media all and (max-width: 1025px) {
+  #main07 .contents02 ul {
+    flex-wrap:wrap
+  }
+  #main07 .contents02 ul li {
+    width:33.3333%;
+  }
+}
 
 /*main08*/
 

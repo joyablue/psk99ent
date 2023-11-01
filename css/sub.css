@@ -10,7 +10,7 @@
     text-align:center;
     align-items: center;
     justify-content: center;
-    background: url('/img/sub/sub_img01.jpg') no-repeat center center/cover;
+    background: url('../img/sub/sub_img01.jpg') no-repeat center center/cover;
 }
     
 #sub01 .ms_con h2,
@@ -92,23 +92,23 @@
 }
 
 #sub02 .contents .clinic .img_box .ms_bg01 {
-    background: url('/img/sleep_img01.jpg') no-repeat center center/cover;
+    background: url('../img/sleep_img01.jpg') no-repeat center center/cover;
 }
 
 #sub02 .contents .clinic .img_box .ms_bg02 {
-    background: url('/img/sleep_img02.jpg') no-repeat center center/cover;
+    background: url('../img/sleep_img02.jpg') no-repeat center center/cover;
 }
 
 #sub02 .contents .clinic .img_box .ms_bg03 {
-    background: url('/img/sleep_img03.jpg') no-repeat center center/cover;
+    background: url('../img/sleep_img03.jpg') no-repeat center center/cover;
 }
 
 #sub02 .contents .clinic .img_box .ms_bg04 {
-    background: url('/img/sleep_img04.jpg') no-repeat center center/cover;
+    background: url('../img/sleep_img04.jpg') no-repeat center center/cover;
 }
 
 #sub02 .contents .clinic .img_box .ms_bg05 {
-    background: url('/img/sleep_img05.jpg') no-repeat center center/cover;
+    background: url('../img/sleep_img05.jpg') no-repeat center center/cover;
 }
 
 #sub02 .contents .clinic .img_box .ms_con {
@@ -373,7 +373,7 @@
     position: relative;
     display: block;
     width:100%;
-    background: url('/img/scroll_img01.jpg') no-repeat center center/cover;
+    background: url('../img/scroll_img01.jpg') no-repeat center center/cover;
     background-attachment: fixed;
     padding:15rem 0;
     margin-top:5rem;
