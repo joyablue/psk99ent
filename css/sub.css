@@ -132,6 +132,16 @@
 }
 
 
+@media all and (max-width: 767px) {
+    #sub02 .contents .clinic {
+        flex-wrap: wrap;
+    }
+    #sub02 .contents .clinic .img_box {
+        width:33.33333%;
+    }
+}
+
+
 /*sub03*/
 #sub03 {
     position: relative;
@@ -165,7 +175,7 @@
 }
 
 #sub03 .contents .clinic .img_box {
-    width: 25%;
+    width: 50%;
     max-width:61rem;
     text-align: center;
 }
@@ -257,7 +267,7 @@
 
 #sub04 .contents .clinic .img_box {
     position: relative;
-    width: 25%;
+    width: 50%;
     max-width:61rem;
     text-align: center;
 }
