@@ -12,6 +12,10 @@
     justify-content: center;
     background: url('../img/sub/sub_img01.jpg') no-repeat center center/cover;
 }
+
+#sub01 .ms_con h2 {
+    font-size:5.5rem;
+}
     
 #sub01 .ms_con h2,
 #sub01 .ms_con p {
